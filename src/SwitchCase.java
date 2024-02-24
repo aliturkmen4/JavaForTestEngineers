@@ -61,11 +61,9 @@ public class SwitchCase {
         switch(browser) {
             case "Chrome":
                 System.out.println("Chrome browserini baslat");
-                // webdriver.startDriver.startChrome
                 break;
             case "Firefox":
                 System.out.println("Firefox browserini baslat");
-                // webDriver.startDriver.startFirefox
                 break;
             default:
                 System.out.println("Tanimsiz bir browser");
