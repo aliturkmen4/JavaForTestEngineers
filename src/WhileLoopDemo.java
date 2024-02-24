@@ -10,10 +10,7 @@ public class WhileLoopDemo {
         System.out.println("-------------------");
 
         int j = 1;
-        while (true){
-            if (j > 5){
-                break;
-            }
+        while (j <=5){
             System.out.println("While loop ile sayimiz " +j);
             j++;
         }
