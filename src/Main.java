@@ -10,15 +10,15 @@ public class Main {
 
         System.out.println("----------------------------");
 
-        Lamba salonLambasi=new Lamba();
-        salonLambasi.lambaDurumu("Salon");
+        Lamba salonLambasi=new Lamba("salon");
+        salonLambasi.lambaDurumu();
 
-        Lamba yatakLambasi=new Lamba();
+        Lamba yatakLambasi=new Lamba("yatak odasi");
         yatakLambasi.durumu=true;
-        yatakLambasi.lambaDurumu("Yatak odası");
+        yatakLambasi.lambaDurumu();
         yatakLambasi.durumu=false;
-        yatakLambasi.lambaDurumu("Yatak odası yeni");
+        yatakLambasi.lambaDurumu();
         yatakLambasi.durumu=true;
-        yatakLambasi.lambaDurumu("Yatak odası son durum");
+        yatakLambasi.lambaDurumu();
     }
 }
