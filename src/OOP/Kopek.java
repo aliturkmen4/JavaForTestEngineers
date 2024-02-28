@@ -35,4 +35,9 @@ public class Kopek extends Hayvan{
     void sesCıkar() {
         System.out.println("HavHav");
     }
+
+    @Override //Hyavan class ın daki methodu override ettiğimi (geçersiz kıldığımı) söylüyorum!
+    public void uyku(){
+        System.out.println("Köpek uyurken horluyor!");
+    }
 }
