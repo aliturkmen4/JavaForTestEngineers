@@ -6,7 +6,7 @@ public class Inheritance {
         System.out.println("Köpeğimin adı: "+ilkkopegim.getIsim());
         System.out.println("Köpeğimin cinsi: "+ilkkopegim.getCins());
         System.out.println("Köpeğimin yaşı: "+ilkkopegim.getYas());
-        ilkkopegim.sesCıkar();
+        ilkkopegim.sesCikar();
         ilkkopegim.uyku();
     }
 }
