@@ -1,6 +1,6 @@
 package OOP;
 
-public class Kopek {
+public class Kopek extends Hayvan{
     private String isim;
     private String cins;
     private int yas;
@@ -29,5 +29,10 @@ public class Kopek {
 
     public String setIsim(String isim) {
        return this.isim = isim;
+    }
+
+    @Override
+    void sesCıkar() {
+        System.out.println("HavHav");
     }
 }
